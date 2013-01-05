@@ -17,7 +17,24 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "VERSION"
+    "Gemfile",
+    "LICENSE.txt",
+    "README.rdoc",
+    "Rakefile",
+    "date-constructor.gemspec",
+    "lib/date/constructor.rb",
+    "test/test_date.rb",
+    "test/test_date_arith.rb",
+    "test/test_date_attr.rb",
+    "test/test_date_base.rb",
+    "test/test_date_compat.rb",
+    "test/test_date_conv.rb",
+    "test/test_date_marshal.rb",
+    "test/test_date_new.rb",
+    "test/test_date_parse.rb",
+    "test/test_date_strftime.rb",
+    "test/test_date_strptime.rb",
+    "test/test_switch_hitter.rb"
   ]
   s.homepage = "http://github.com/cjheath/date-constructor"
   s.licenses = ["MIT"]
