@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name = "date-constructor".freeze
   s.version = "0.0.1"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
+  s.required_ruby_version = ">= 3.0"
   s.require_paths = ["lib".freeze]
   s.authors = ["Clifford Heath".freeze]
   s.date = "2024-07-23"
@@ -40,14 +40,14 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/cjheath/date-constructor".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.4.10".freeze
+  s.rubygems_version = "3.5.16".freeze
   s.summary = "Add flexible constructors to Ruby's Date and DateTime".freeze
 
   s.specification_version = 4
 
-  s.add_development_dependency(%q<rake>.freeze, [">= 0"])
-  s.add_development_dependency(%q<jeweler>.freeze, [">= 0"])
-  s.add_development_dependency(%q<bundler>.freeze, [">= 2.2.33"])
-  s.add_development_dependency(%q<rdoc>.freeze, [">= 2.4.2"])
+  s.add_development_dependency(%q<rake>.freeze, ["~> 13"])
+  s.add_development_dependency(%q<jeweler>.freeze, ["~> 2.3"])
+  s.add_development_dependency(%q<bundler>.freeze, ["~> 2.5"])
+  s.add_development_dependency(%q<rdoc>.freeze, ["~> 6"])
 end
 
